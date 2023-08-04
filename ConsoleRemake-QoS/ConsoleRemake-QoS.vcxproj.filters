@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\console">
+      <UniqueIdentifier>{b730129d-8a9f-4b69-9249-848c3aaeb9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{c88d5299-b1d5-4f9e-9e7a-c6d69c62d0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\utils">
+      <UniqueIdentifier>{c0899b03-0dfb-47f4-ae3d-9bdb048dcbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{1d8cfe1b-9c75-4bcb-86bf-02fd88c05e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\utils\gsl">
+      <UniqueIdentifier>{985495ed-7219-45f5-802e-a7201d319389}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="console\console.hpp">
+      <Filter>Source Files\console</Filter>
+    </ClInclude>
+    <ClInclude Include="console\syscon.hpp">
+      <Filter>Source Files\console</Filter>
+    </ClInclude>
+    <ClInclude Include="console\terminal.hpp">
+      <Filter>Source Files\console</Filter>
+    </ClInclude>
+    <ClInclude Include="console\wincon.hpp">
+      <Filter>Source Files\console</Filter>
+    </ClInclude>
+    <ClInclude Include="common\utils\flags.hpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="common\utils\nt.hpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="common\utils\string.hpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="common\utils\thread.hpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.hpp">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="std_include.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\utils\hook.hpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\utils\signature.hpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="common\utils\concurrency.hpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console\console.cpp">
+      <Filter>Source Files\console</Filter>
+    </ClCompile>
+    <ClCompile Include="console\syscon.cpp">
+      <Filter>Source Files\console</Filter>
+    </ClCompile>
+    <ClCompile Include="console\terminal.cpp">
+      <Filter>Source Files\console</Filter>
+    </ClCompile>
+    <ClCompile Include="console\wincon.cpp">
+      <Filter>Source Files\console</Filter>
+    </ClCompile>
+    <ClCompile Include="common\utils\flags.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="common\utils\nt.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="common\utils\string.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="common\utils\thread.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="std_include.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\utils\hook.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="common\utils\signature.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
