@@ -7,4 +7,4 @@
 <br/>
 
 # Credits
-- [IW7-Mod](https://github.com/Joelrau/iw7-mod/) for nearly everything.
+- [IW7-Mod](https://github.com/Joelrau/iw7-mod/) for code.
